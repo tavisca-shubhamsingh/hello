@@ -1,2 +1,7 @@
 import sys
-print("Hello",sys.argv[1])
+if len(sys.argv)>1:
+	print("hello",sys.argv[1])
+else:
+	print("hello world")
+
+

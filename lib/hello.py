@@ -1,9 +1,12 @@
 #default is world
 #Author: Shubham Singh (ssingh@tavisca.in)
+from greeter import Greeter
 import sys
 if len(sys.argv)>1:
-	print("hello",sys.argv[1])
+	name=sys.argv[1]
 else:
-	print("hello world")
+	name="world"
 
+gr=Greeter(name)
+gr.greet()
 

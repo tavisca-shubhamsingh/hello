@@ -1,4 +1,5 @@
 #default is world
+#Author: Shubham Singh
 import sys
 if len(sys.argv)>1:
 	print("hello",sys.argv[1])
